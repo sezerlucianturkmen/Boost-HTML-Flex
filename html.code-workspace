@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "C:/bilge.adam/html"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML example"
+	}
+}

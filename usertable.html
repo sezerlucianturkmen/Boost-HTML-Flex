@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/usertable.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Resim</th>
+                <th>Islemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            <td>0001</td>
+            <td>Sezer</td>
+            <td>Turkmen</td>
+            <td> <img  class="zoom" src="https://randomuser.me/api/portraits/med/men/51.jpg" alt=""></td>
+            <td> 
+                <button>düzenle</button>
+                <button onclick="sil()">sil</button>
+            </td>
+        </tbody>        
+    </table>
+    <script>
+        function sil()
+        alert(id+"kayıt silindi")
+    </script>
+
+
+</body>
+</html>
