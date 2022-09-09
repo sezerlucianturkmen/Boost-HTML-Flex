@@ -1,3 +1,7 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .row{
     padding: 10px;
     background-color: rgb(158, 158, 158);
@@ -57,4 +61,51 @@
 }
 .btn-new:hover{
     background-color: black;
+}
+.btn-edit{
+    background-color: rgb(133, 31, 180);
+    color: antiquewhite;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+.btn-new:hover{
+    background-color: black;
+}
+input[type="text"]{
+    width: 60%;
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+    margin: 5px 8px;
+    padding: 12px 15 px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type="text"]:focus{
+    background-color: white;
+}
+.form-element label{
+    width: 20%;
+    text-align: left;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+    border-bottom: 1 px solid #ddd;
+}
+tbody tr:nth-child(odd){
+    background-color: whitesmoke;
+}
+tbody tr:hover{
+    background-color: rgb(206, 221, 0);
+}
+thead{
+    background-color: black;
+    color: white;
 }
